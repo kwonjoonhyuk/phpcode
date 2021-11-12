@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.main h3 {
+    float: right;
+}
+
+/* Header/logo Title */
+.header {
+    position: relative;
+    background-color: #DDDDFF;
+    padding: 5px;
+    height: 150px;
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/op8/image/jRhr8fJd5Rl4Rf-ohWuohGcx7Bs.png');
+    color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 70px;
+}
+
+div.relative {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Footer */
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+}

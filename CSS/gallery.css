@@ -1,0 +1,103 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    position: relative;
+    background-color: #DDDDFF;
+    padding: 5px;
+    height: 150px;
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/op8/image/jRhr8fJd5Rl4Rf-ohWuohGcx7Bs.png');
+    color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 70px;
+}
+
+div.relative {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Footer */
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.wrap {
+    font-size: 10px;
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.marketpage_title {
+    margin-bottom: 30px;
+}
+
+.marketpage_title strong {
+    font-size: 30px;
+}
+
+.marketpage_title P {
+    margin-top: 5px;
+    font-size: 14px;
+}

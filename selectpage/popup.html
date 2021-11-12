@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>팝업</title>
+    <script language="JavaScript">
+        function setCookie(name, value, expiredays) {
+            var date = new Date();
+            date.setDate(date.getDate() + expiredays);
+            document.cookie = escape(name) + "=" + escape(value) + "; expires=" + date.toUTCString();
+        }
+
+        function closePopup() {
+            if (document.getElementById("check").value) {
+                setCookie("popupYN", "N", 1);
+                self.close();
+            }
+        }
+    </script>
+</head>
+<body>
+
+        <p style="text-align:left; font-size: medium ; color: darkorange"><b>[레스터시티 팬들을 위한 사이트]</b></p>
+        <p style="text-align:center; font-size: 30PX ; color: darkred"><b><   The FOXES    ></b></p>
+
+<img src="/board/uploads/5be8f3b26a8edb9727a8b7126ef76347.jpeg" style= "width:100%; margin-top:0px"/>
+<br>
+
+<input type="checkbox" id="check" align="right" onclick="closePopup();">
+
+<font style="text-align:right; font-size: larger">하루동안 보지 않기</font>
+
+
+</body>
+</html>
+
+
+
